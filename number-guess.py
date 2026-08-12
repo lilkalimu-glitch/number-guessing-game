@@ -7,7 +7,7 @@ def number_guess():
     print('I am thinking of a number between 1 aaaand 15..')
     random_number = r.randint(1,16)
     counts = 0
-    for counts in range(0,11):
+    for counts in range(9):
         while True:
             try:
                 user_guess = int(input('Guess\n>'))
@@ -22,7 +22,7 @@ def number_guess():
             continue
         elif user_guess <= random_number:
             print('Too low!') 
-    if counts == 10:
+    if counts == 9:
         print('Too many attempts xd')
 
 # Main function for menu 
