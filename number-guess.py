@@ -5,7 +5,7 @@ import random as r
 
 def number_guess():
     print('I am thinking of a number between 1 aaaand 15..')
-    random_number = r.randint(1,16)
+    random_number = r.randint(1,15)
     counts = 0
     for counts in range(9):
         while True:
